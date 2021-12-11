@@ -1,0 +1,58 @@
+.navbar.past-main {
+    height: 120px;
+}
+
+.logo-pos {
+    padding-top: 2%;
+    width: 50px;
+}
+.btn-pos {
+    padding-top: 6%;
+}
+@media only screen and (min-width: 767px) {
+    .menuedit {
+        padding-top: 9%;
+        top:0;
+    }
+    .imagegal {
+        width: 750px;
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .imagegal {
+        width: 100%;
+    }
+    .hero-cont{
+        transform: translate(0,25vh)
+    }
+}
+
+.form .hero-section {
+	background:url(../images/ucl-bg-dark.jpg);
+	background-size: cover;
+	padding: 150px 0 0 0;
+}
+div.black {
+        background-color: rgb(0, 0, 0,0.9);
+        width: 100%;
+        height: 100%;
+}
+.navtext {
+    font-size: 21px;
+}
+.pitch-intro {
+    padding-bottom: 20px!important;
+}
+@media only screen and (max-width: 991px) {
+    .cont1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .ct2 {
+        order: 3;
+    }
+}
+.img2 {
+    clip:rect(0px,0px,0px,0px);
+}
