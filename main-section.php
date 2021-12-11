@@ -62,15 +62,11 @@
             <h1 class="wow fadeInDown" data-wow-delay="0.2s">Galeri</h1>
           </div>
           <div class="reviews owl-carousel owl-theme wow fadeInDown" data-wow-delay="0.2s">
-              <div class="imagegal img1 container">
-                <img src="images/messi-kick.jpg" width="100%">
+            <?php foreach ($gallery as $gal) :?>
+              <div class="imagegal container">
+                <img src=<?= "images/".$gal ?> class="img1">
               </div>
-              <div class="imagegal img2 container" >
-                <img src="images/france-won.jpg" width="100%">
-              </div>
-              <div class="imagegal im3 container">
-                <img src="images/ronaldo.jpg" width="100%">
-              </div>
+            <?php endforeach; ?>
           </div>
         </div>
       </div>

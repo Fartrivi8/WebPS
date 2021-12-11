@@ -1,4 +1,4 @@
-/* NAVBAR Stylesses*/
+/* NAVBAR Styles*/
 .navbar.past-main {
     height: 120px;
 }
@@ -33,7 +33,12 @@
 	padding: 150px 0 0 0;
 }
 
-
+/* GALLERY SECTION Styles */
+.img1 {
+    height: 100%;
+    width: 85%;
+    object-fit: cover;
+}
 
 /* Responsive Styles */
 @media only screen and (min-width: 767px) {

@@ -5,7 +5,10 @@
     /* icon */
     $icon = "images/logo-ps.ico";
     /* Section 1 */
-    $judul_s1 = "Kegiatan Unit PS ITB"
+    $judul_s1 = "Kegiatan Unit PS ITB";
+
+    /* Array Data */
+    $gallery = ["messi-kick.jpg","france-won.jpg","ronaldo.jpg","ucl-bg.jpg"];
 ?>
 
 <!-- HTML -->
