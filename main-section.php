@@ -61,7 +61,7 @@
           <div class="judul-s1 pitch-intro" >
             <h1 class="wow fadeInDown" data-wow-delay="0.2s">Galeri</h1>
           </div>
-          <div class="reviews owl-carousel owl-theme">
+          <div class="reviews owl-carousel owl-theme wow fadeInDown" data-wow-delay="0.2s">
               <div class="imagegal img1 container">
                 <img src="images/messi-kick.jpg" width="100%">
               </div>
