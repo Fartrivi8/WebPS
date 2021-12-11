@@ -2,7 +2,7 @@ name: Build and deploy
 on:
   push:
     branches: [main]
-    workflow_dispatch:
+  workflow_dispatch:
     
 jobs:
   build:
@@ -21,20 +21,20 @@ jobs:
         name: dist
         path: dist
         
-deploy:
-  name: Deploy
-  needs: build
-  runs-on: ubuntu-latest
-  steps:
-    - name: Checkout repository
-      uses: actions/checkout@main
-      with:
-        name: dist
-        path: dist
-    - name: Sync files to hosting
-      uses: SamKirkLand/FTP-Deploy-Action@4.0.0
-      with:
-        server: 185.27.134.11
-        username: epiz_30559624
-        password: vdTkNuanONX
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@main
+        with:
+          name: dist
+          path: dist
+      - name: Sync files to hosting
+        uses: SamKirkLand/FTP-Deploy-Action@4.0.0
+        with:
+          server: 185.27.134.11
+          username: epiz_30559624
+          password: vdTkNuanONX
         
