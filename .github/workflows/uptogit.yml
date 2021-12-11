@@ -28,7 +28,7 @@ jobs:
           name: dist
           path: dist
       - name: Sync files to hosting
-        uses: SamKirkLand/FTP-Deploy-Action@4.0.0
+        uses: SamKirkLand/FTP-Deploy-Action@4.2.0
         with:
           server: 185.27.134.11
           username: epiz_30559624
