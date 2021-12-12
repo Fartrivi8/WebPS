@@ -1,12 +1,14 @@
 <!-- Data Variabel -->
 <?php
+    /* Clearing Cache */
+    $time = date("H:i:s");
     /* Judul Website */
     $title = "PS ITB Official Website";
     /* icon */
     $icon = "images/logo-ps.ico";
     /* Section 1 */
     $judul_s1 = "Kegiatan Unit PS ITB";
-
+    
     /* Array Data */
     $gallery = ["messi-kick.jpg","france-won.jpg","ronaldo.jpg","ucl-bg.jpg"];
 ?>
