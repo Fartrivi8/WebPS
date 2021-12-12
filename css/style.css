@@ -899,7 +899,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .app .hero-content {
-	padding: 100px 0 100px 0;
+	padding: 30px 0 100px 0;
 }
 
 .app img {
