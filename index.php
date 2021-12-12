@@ -15,17 +15,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php include 'head.php' ?>
+    <?php include 'php/head.php' ?>
 </head>
 <body>
     <div class="wrapper">
         <!-- Navbar -->
-        <?php include "navbar.php" ?>
+        <?php include "php/navbar.php" ?>
         <!-- Main Section -->
-        <?php include "main-section.php" ?>
+        <?php include "php/main-section.php" ?>
     </div>
     
     <!-- JS Plugin -->
-    <?php include "js-plugin.php"?>
+    <?php include "php/js-plugin.php"?>
 </body>
 </html>
